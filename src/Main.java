@@ -1,10 +1,12 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
+
+
 public class Main {
     public static void main(String[] args) {
-        int a =10;
-        int b=98;
-        int s=a+b;
-        System.out.println(s);
+        Scanner s = new Scanner(System.in);
+        int a= s.nextInt();
+        int b= s.nextInt();
+        int sum= a+b;
+        System.out.println(sum);
     }
 }
