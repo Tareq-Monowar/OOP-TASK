@@ -2,7 +2,7 @@ package Practice_Problem_01;
 
 import java.util.Scanner;
 
-public class task01 {
+public class task03 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         double base=s.nextDouble();
