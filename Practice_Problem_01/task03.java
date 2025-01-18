@@ -11,7 +11,7 @@ public class task03 {
         double b=s.nextDouble();
         double c=s.nextDouble();
         System.out.println("Area of a triangle:");
-        double sr=(a+b+c)/2.0;
-        System.out.println(sqrt(sr*(sr-a)*(sr-b)*(sr-c)));
+        double so=(a+b+c)/2.0;
+        System.out.println(sqrt(so*(so-a)*(so-b)*(so-c)));
     }
 }
