@@ -5,8 +5,14 @@ import java.util.Scanner;
 public class task02 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        double radious=s.nextDouble();
-        System.out.println("Area of a Circle:");
-        System.out.println(3.1416*radious*radious);
+        int l=s.nextInt();
+        int[] arr;
+        arr = new int[l];
+        for(int i=0;i<l;i++){
+            arr[i]= s.nextInt();
+        }
+        for(int i=0;i<l;i++){
+            System.out.println(arr[i]);
+        }
     }
 }
