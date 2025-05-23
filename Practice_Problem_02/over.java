@@ -15,16 +15,15 @@ class ev extends vehicle{
         super(brand);
         this.noofcell = noofcell;
     }
-//    void disp(){
-//        System.out.println(super.brand);
-//        System.out.println("I am "+ this.brand);
-//    }
+    void disp(){
+        System.out.println(super.brand);
+        System.out.println("I am "+ this.brand);
+    }
 
 }
 public class over {
     public static void main(String[] args) {
         ev byd=new ev("evehicle",7);
         System.out.println(byd.brand);
-
     }
 }
